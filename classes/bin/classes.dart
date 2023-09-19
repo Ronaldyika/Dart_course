@@ -24,6 +24,8 @@ class Names {
   }
 }
 
+//class declaration
+
 class Cars {
   String CarName = '';
   int NumberChairs = 4;
@@ -31,7 +33,7 @@ class Cars {
   String Company = '';
 
   Person person1 = Person("lamboghini", 3, 4, "Apache", "Ronald");
-
+  //class method/function
   Cars(CarName, NumberChairs, Wheels, Company) {
     this.CarName = CarName;
     this.NumberChairs = NumberChairs;
